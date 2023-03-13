@@ -1,0 +1,36 @@
+macro
+	// GAMEPLAY
+	R return ".sprint 1"
+	R+UP return ".sprint 0"
+	Space return ".attack 0"
+	P return ".attack 1"
+
+	// EMOTES
+	CTRL+1 return ".emote 1"
+	CTRL+2 return ".emote 2"
+	CTRL+3 return ".emote 3"
+	CTRL+4 return ".emote 4"
+	CTRL+5 return ".emote 5"
+	CTRL+6 return ".emote 6"
+	CTRL+7 return ".emote 7"
+
+	// INVENTORY
+	1 return ".slot 1"
+	2 return ".slot 2"
+	3 return ".slot 3"
+	4 return ".slot 4"
+	5 return ".slot 5"
+	6 return ".slot 6"
+	7 return ".slot 7"
+	8 return ".slot 8"
+	9 return ".slot 9"
+
+	Numpad1 return ".slot 1"
+	Numpad2 return ".slot 2"
+	Numpad3 return ".slot 3"
+	Numpad4 return ".slot 4"
+	Numpad5 return ".slot 5"
+	Numpad6 return ".slot 6"
+	Numpad7 return ".slot 7"
+	Numpad8 return ".slot 8"
+	Numpad9 return ".slot 9"

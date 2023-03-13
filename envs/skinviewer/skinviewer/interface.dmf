@@ -1,0 +1,106 @@
+macro "macro"
+	elem 
+		name = "North+REP"
+		command = ".north"
+	elem 
+		name = "South+REP"
+		command = ".south"
+	elem 
+		name = "East+REP"
+		command = ".east"
+	elem 
+		name = "West+REP"
+		command = ".west"
+	elem 
+		name = "Northeast+REP"
+		command = ".northeast"
+	elem 
+		name = "Northwest+REP"
+		command = ".northwest"
+	elem 
+		name = "Southeast+REP"
+		command = ".southeast"
+	elem 
+		name = "Southwest+REP"
+		command = ".southwest"
+	elem 
+		name = "Center+REP"
+		command = ".center"
+
+
+menu "menu"
+	elem 
+		name = "&Quit"
+		command = ".quit"
+		category = "&File"
+		saved-params = "is-checked"
+
+
+window "default"
+	elem "default"
+		type = MAIN
+		pos = 281,0
+		size = 1035x650
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = #b2b2b2
+		is-default = true
+		saved-params = "pos;size;is-minimized;is-maximized"
+		can-resize = false
+		macro = "macro"
+		menu = "menu"
+		outer-size = 1051x728
+		inner-size = 1035x669
+	elem "info1"
+		type = INFO
+		pos = 376,32
+		size = 632x608
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		saved-params = ""
+		tab-background-color = #b2b2b2
+	elem "label1"
+		type = LABEL
+		pos = 16,0
+		size = 1000x32
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
+		is-transparent = true
+		saved-params = ""
+		text = "StruckDM Skin Viewer"
+	elem "map1"
+		type = MAP
+		pos = 16,40
+		size = 352x600
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = #b2b2b2
+		saved-params = "zoom;letterbox;zoom-mode"
+
+window "window1"
+	elem "window1"
+		type = MAIN
+		pos = 281,0
+		size = 640x480
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
+		is-visible = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Output"
+		statusbar = false
+		can-minimize = false
+		can-resize = false
+		outer-size = 656x519
+	elem "output1"
+		type = OUTPUT
+		pos = 0,0
+		size = 640x480
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		text-color = #dddddd
+		background-color = #808080
+		is-default = true
+		saved-params = "max-lines"
+

@@ -1,0 +1,37 @@
+# Lines that start with "#" are ignored by StruckDM
+# A Number of Bots to add on the server, the server may lag with higher count.
+num_bots 0
+# The difficulty for bots
+# 0 - Easy, 1 - Medium, 2 - Hard, 3 - Insane
+bot_difficulty 0
+# Can bots use emotes?
+bot_do_emotes 0
+# When set to 1, The time of the game will never be changed (unless the gamemode wants to).
+gm_endless 0
+# The name of the gamemode to always use on the server, You can see a list of gamemodes by using "Force Gamemode" command in-game or by checking the server logs.
+# Using Gamemode Names lowercase and uppercase is allowed.
+gm_force off
+# BYOND Keys for them to have admin permissions, you shouldn't add yourself (server owner) here unless it's needed.
+# Only add keys you trust here, otherwise they can abuse admin commands and ruin your server!
+# You can use this multiple times.
+#admin_key SorioG
+#admin_key Steckman
+
+# Server Name, This is displayed on hub and when connecting through telnet. (Use CheckStatus command to see what it looks like)
+server_name StruckDM
+# Message of the day, Players that join your server will see this
+# For longer messages, it's recommended that you make a file out of it and use this setting
+#motd_file motd.txt
+# You can use this instead of the file if you want to, add "#" behind of this line if you are using a file.
+server_motd Welcome to StruckDM Server!
+
+# By default, kill messages are enabled. If you are tired of kill messages, just set it to 0!
+killmessages 1
+
+# Remote Console allows you to use admin commands without having to join on Dream Seeker.
+# Note: Kill Messages and other global messages may still appear.
+# To use remote console, you will have to connect through telnet.
+# Having Kill Messages enabled might be annoying for users who use RCON.
+rcon_enabled 0
+# The default password for RCON is totally insecure, If you have RCON enabled, you should change this.
+rcon_password changeme123
